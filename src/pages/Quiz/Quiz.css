@@ -1,0 +1,12 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quiz-title {
+    font-family: 'Greating Vibes', cursive;
+    color: #FFF;
+    font-size: 1.5rem;
+}

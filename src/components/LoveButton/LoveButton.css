@@ -1,0 +1,52 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.love-button {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.love-button:hover {
+    background-color: #ec407a;
+}
+
+.box-mensagem {
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: #f06292;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+}
+
+.box-mensagem:hover {
+    transform: scale(1.1);
+}
+
+.video {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+
+.mensagem {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    width: 18rem;
+    text-align: justify;
+}

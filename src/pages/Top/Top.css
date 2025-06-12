@@ -1,0 +1,12 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-title {
+    font-family: 'Greating Vibes', cursive;
+    color: #FFF;
+    font-size: 2rem;
+}

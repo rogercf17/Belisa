@@ -1,0 +1,27 @@
+.header {
+    width: 90%;
+    margin: 0 auto;
+    height: 15vh;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #f8bbd0;
+    margin-bottom: 10rem;
+}
+
+.header h1,p {
+    color: #FFF;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header h1{
+    font-size: 3rem;   
+}
+
+.header p {
+    font-size: 1.5rem;
+}
